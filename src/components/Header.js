@@ -21,11 +21,23 @@ export default function Header() {
  const imgAnim = {
   hidden: {
    opacity: 0,
-   scale: 1.5,
+   scale: 1.1,
   },
   show: {
    opacity: 1,
    scale: 1,
+   transition: { duration: 1 },
+  },
+ };
+
+ const itemAnim = {
+  hidden: {
+   opacity: 0,
+   y: 25,
+  },
+  show: {
+   opacity: 1,
+   y: 0,
    transition: { duration: 1 },
   },
  };
@@ -48,13 +60,28 @@ export default function Header() {
        alt="ayush Rameja"
       />
      </div>
-     <div className="name">
+     <motion.div
+      variants={itemAnim}
+      initial="hidden"
+      animate="show"
+      className="name"
+     >
       <h1>Ayush Rameja</h1>
-     </div>
-     <div className="desc">
+     </motion.div>
+     <motion.div
+      variants={itemAnim}
+      initial="hidden"
+      animate="show"
+      className="desc"
+     >
       <p>Front End Developer</p>
-     </div>
-     <div className="social-links">
+     </motion.div>
+     <motion.div
+      variants={itemAnim}
+      initial="hidden"
+      animate="show"
+      className="social-links"
+     >
       <a href="sad">
        <VscGithubAlt title="Github" />
       </a>
@@ -64,7 +91,7 @@ export default function Header() {
       <a href="sad">
        <RiLinkedinFill title="LinkedIn" />
       </a>
-     </div>
+     </motion.div>
     </motion.div>
    </motion.header>
   </>
