@@ -22,10 +22,12 @@ export default function Header() {
   hidden: {
    opacity: 0,
    scale: 1.1,
+   height: 0,
   },
   show: {
    opacity: 1,
    scale: 1,
+   height: "100%",
    transition: { duration: 1 },
   },
  };
@@ -39,6 +41,22 @@ export default function Header() {
    opacity: 1,
    y: 0,
    transition: { duration: 1 },
+  },
+ };
+
+ const linkAnim = {
+  hidden: {
+   opacity: 0,
+   y: 25,
+  },
+  show: {
+   opacity: 1,
+   y: 0,
+   transition: {
+    duration: 0.25,
+    delay: 1,
+    ease: "easeOut",
+   },
   },
  };
 
@@ -82,15 +100,15 @@ export default function Header() {
       animate="show"
       className="social-links"
      >
-      <a href="sad">
+      <motion.a href="sad" variants={linkAnim} initial="hidden" animate="show">
        <VscGithubAlt title="Github" />
-      </a>
-      <a href="sad">
+      </motion.a>
+      <motion.a href="sad" variants={linkAnim} initial="hidden" animate="show">
        <FiTwitter title="Twitter" />
-      </a>
-      <a href="sad">
+      </motion.a>
+      <motion.a href="sad" variants={linkAnim} initial="hidden" animate="show">
        <RiLinkedinFill title="LinkedIn" />
-      </a>
+      </motion.a>
      </motion.div>
     </motion.div>
    </motion.header>
