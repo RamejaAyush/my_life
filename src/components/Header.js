@@ -4,7 +4,6 @@ import { VscGithubAlt } from "react-icons/vsc";
 import { FiTwitter } from "react-icons/fi";
 import { RiLinkedinFill } from "react-icons/ri";
 import { motion } from "framer-motion";
-import Nav from "./Nav";
 
 export default function Header() {
  const headerAnim = {
@@ -68,7 +67,6 @@ export default function Header() {
      </div>
     </motion.div>
    </motion.header>
-   <Nav />
   </>
  );
 }
