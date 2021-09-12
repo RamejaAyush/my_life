@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap");
 
 /* fonts
-font-family: 'Montserrat', sans-serif;
-font-family: 'Righteous', cursive; */
+font-family: 'Titillium Web', sans-serif;
+*/
 
 * {
  padding: 0;
@@ -11,5 +11,5 @@ font-family: 'Righteous', cursive; */
 }
 
 body {
- font-family: "Montserrat", sans-serif;
+ font-family: "Titillium Web", sans-serif;
 }
