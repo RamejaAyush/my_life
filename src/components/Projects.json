@@ -1,0 +1,44 @@
+[
+ {
+  "name": "Todo App",
+  "img_url": "https://github.com/RamejaAyush/improved_todo_react/blob/master/src/media/ss.png?raw=true",
+  "desc": "You can add you own task and customize according to you liking. A fun project I made during my training",
+  "preview_url": "https://improved-todo-ayush.netlify.app/",
+  "github_url": "https://github.com/RamejaAyush/improved_todo_react"
+ },
+ {
+  "name": "Investment Calculator",
+  "img_url": "https://github.com/RamejaAyush/Investment_calculator/raw/master/Screenshot/ss.png?raw=true",
+  "desc": "Calculates the amount of the profits, Gained amount as well as the Total investment done in SIP and Lumpsum.",
+  "preview_url": "https://ramejaayush.github.io/Investment_calculator/",
+  "github_url": "https://github.com/RamejaAyush/Investment_calculator"
+ },
+ {
+  "name": "Calculator",
+  "img_url": "https://github.com/RamejaAyush/Improved_Calculator/blob/master/media/ss.png?raw=true",
+  "desc": "Basic Calculator made with JavaScript Classes",
+  "preview_url": "https://ramejaayush.github.io/Improved_Calculator/",
+  "github_url": "https://github.com/RamejaAyush/Improved_Calculator"
+ },
+ {
+  "name": "Foodies",
+  "img_url": "https://github.com/RamejaAyush/Foodies_node/raw/master/public/media/loginpage.png?raw=true",
+  "desc": "Foodies is a Web Application made with node, express, and ejs.",
+  "preview_url": "https://tastyfoodies.herokuapp.com/",
+  "github_url": "https://github.com/RamejaAyush/Foodies_node"
+ },
+ {
+  "name": "Beat Maker",
+  "img_url": "https://github.com/RamejaAyush/BeatMaker/raw/master/media/beatMaker.png?raw=true",
+  "desc": "Beat Maker is a web app that make some cool and small beats.",
+  "preview_url": "https://ramejaayush.github.io/BeatMaker/",
+  "github_url": "https://github.com/RamejaAyush/BeatMaker"
+ },
+ {
+  "name": "Quotzz",
+  "img_url": "https://github.com/RamejaAyush/Quotzz/raw/master/media/Quotzz.png?raw=true",
+  "desc": "Random Quotes Generator",
+  "preview_url": "https://ramejaayush.github.io/Quotzz/",
+  "github_url": "https://github.com/RamejaAyush/Quotzz"
+ }
+]
