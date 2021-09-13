@@ -1,23 +1,24 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
+import Ind from "./Ind";
 import "../styles/Project.css";
+import Footer from "./Footer";
 
-export default function Projects() {
+const Projects = () => {
  return (
   <>
-   <motion.div
-    initial={{ opacity: 0, y: 25 }}
-    animate={{
-     opacity: 1,
-     y: 0,
-     transition: {
-      duration: 1,
-      ease: "easeInOut",
-     },
-    }}
-    exit={{ opacity: 0, y: 25, transition: { duration: 1 } }}
-   >
-    <div className="project-container"></div>
-   </motion.div>
+   <div className="project-container">
+    <Ind />
+    <Ind />
+    <Ind />
+    <Ind />
+    <Ind />
+    <Ind />
+    <Ind />
+    <Ind />
+   </div>
+   <Footer />
   </>
  );
-}
+};
+
+export default Projects;
