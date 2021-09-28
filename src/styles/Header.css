@@ -66,3 +66,15 @@ header {
  transform: translateY(-2px);
  color: #fff;
 }
+
+@media only screen and (max-width: 500px) {
+ header {
+  height: 70vh;
+ }
+ .pro-container {
+  width: 100%;
+ }
+ .pro-container .image img {
+  width: 60%;
+ }
+}

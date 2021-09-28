@@ -3,7 +3,6 @@ import Header from "./Header";
 import Nav from "./Nav";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import Contact from "./Contact";
 import Projects from "./Projects";
 import Loader from "./Loader";
 import { useState, useEffect } from "react";
@@ -46,9 +45,6 @@ const App = () => {
     <Switch>
      <Route exact path="/">
       <Projects />
-     </Route>
-     <Route path="/contact">
-      <Contact />
      </Route>
     </Switch>
    </AnimatePresence>
