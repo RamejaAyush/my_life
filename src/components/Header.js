@@ -100,13 +100,28 @@ export default function Header() {
       animate="show"
       className="social-links"
      >
-      <motion.a href="sad" variants={linkAnim} initial="hidden" animate="show">
+      <motion.a
+       href="https://github.com/RamejaAyush"
+       variants={linkAnim}
+       initial="hidden"
+       animate="show"
+      >
        <VscGithubAlt title="Github" />
       </motion.a>
-      <motion.a href="sad" variants={linkAnim} initial="hidden" animate="show">
+      <motion.a
+       href="https://twitter.com/RamejaAyush"
+       variants={linkAnim}
+       initial="hidden"
+       animate="show"
+      >
        <FiTwitter title="Twitter" />
       </motion.a>
-      <motion.a href="sad" variants={linkAnim} initial="hidden" animate="show">
+      <motion.a
+       href="https://www.linkedin.com/in/ayush-rameja-8042541b6/"
+       variants={linkAnim}
+       initial="hidden"
+       animate="show"
+      >
        <RiLinkedinFill title="LinkedIn" />
       </motion.a>
      </motion.div>
